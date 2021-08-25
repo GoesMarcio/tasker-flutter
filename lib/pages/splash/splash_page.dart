@@ -16,15 +16,6 @@ class SplashPage extends StatefulWidget {
 
 class _SplashPageState extends State<SplashPage> {
   @override
-  void initState() {
-    super.initState();
-
-    Future.delayed(Duration(seconds: 4)).then((_) {
-      Navigator.of(context).pushReplacementNamed("/home");
-    });
-  }
-
-  @override
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
 
