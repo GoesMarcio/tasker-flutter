@@ -36,6 +36,7 @@ class MyApp extends StatelessWidget {
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.done) {
             return MaterialApp(
+              debugShowCheckedModeBanner: false,
               title: 'Tasker',
               theme: ThemeData(
                   primarySwatch: Colors.blue, primaryColor: AppColors.primary),
@@ -47,7 +48,8 @@ class MyApp extends StatelessWidget {
             );
           } else {
             // Show splash screen while waiting for app resources to load:
-            return MaterialApp(home: SplashPage());
+            return MaterialApp(
+                debugShowCheckedModeBanner: false, home: SplashPage());
           }
         });
   }

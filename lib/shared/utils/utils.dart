@@ -51,11 +51,13 @@ String showDate(date) {
   }
 
   if (dayCompare == dayNow) {
-    dayDisplay = "Hoje às ${date.hour}:${date.minute}";
+    dayDisplay =
+        "Hoje às ${date.hour.toString().padLeft(2, '0')}:${date.minute.toString().padLeft(2, '0')}";
   }
 
   if (dayCompare == dayTomorow) {
-    dayDisplay = "Amanhã às ${date.hour}:${date.minute}";
+    dayDisplay =
+        "Amanhã às ${date.hour.toString().padLeft(2, '0')}:${date.minute.toString().padLeft(2, '0')}";
   }
 
   return dayDisplay;
