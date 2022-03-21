@@ -1,6 +1,10 @@
-# tasker
+# Tasker
 
-A new Flutter project.
+Tasker is a ToDo App made with Flutter
+
+<p align="center">
+[Live Preview](https://tasker-flutter.netlify.app)
+</p>
 
 ## Getting Started
 
