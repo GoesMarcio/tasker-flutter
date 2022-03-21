@@ -3,7 +3,9 @@
 Tasker is a ToDo App made with Flutter
 
 <p align="center">
-[Live Preview](https://tasker-flutter.netlify.app)
+  <a href="https://tasker-flutter.netlify.app">
+    Live Preview
+  </a>
 </p>
 
 ## Getting Started
